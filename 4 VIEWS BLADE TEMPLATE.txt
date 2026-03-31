@@ -1,0 +1,7 @@
+Buat folder: resources/views/products/
+- index.blade.php (List data + pagination)
+- create.blade.php (Form tambah)
+- edit.blade.php (Form edit)
+- show.blade.php (Detail)
+
+Layout: resources/views/layouts/app.blade.php

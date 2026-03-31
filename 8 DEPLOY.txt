@@ -1,0 +1,9 @@
+# Upload ke hosting (cPanel, VPS)
+# Install dependencies
+composer install --optimize-autoloader --no-dev
+# Generate key
+php artisan key:generate
+# Migrate
+php artisan migrate --force
+# Storage link
+php artisan storage:link

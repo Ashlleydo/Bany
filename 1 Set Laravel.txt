@@ -1,0 +1,11 @@
+# Install Laravel (Composer)
+composer create-project laravel/laravel nama_project
+cd nama_project
+
+# Install Laravel (Laravel Installer)
+composer global require laravel/installer
+laravel new nama_project
+
+# Start Server
+php artisan serve
+# Buka http://127.0.0.1:8000

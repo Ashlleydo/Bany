@@ -1,0 +1,13 @@
+# Konfigurasi .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
+
+# Buat Migration
+php artisan make:migration create_products_table
+php artisan make:model Product -m
+
+# Edit Migration (lihat kode di atas)
+
+# Jalankan Migration
+php artisan migrate
+
+# Rollback jika salah
+php artisan migrate:rollback

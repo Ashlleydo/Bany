@@ -1,0 +1,7 @@
+# Buat Controller
+php artisan make:controller ProductController --resource
+
+# Edit Controller (kode lengkap di atas)
+
+# Tambah Routes di web.php
+Route::resource('products', ProductController::class);

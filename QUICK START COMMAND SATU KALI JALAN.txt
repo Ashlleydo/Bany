@@ -1,0 +1,4 @@
+composer create-project laravel/laravel crud_project && cd crud_project && 
+php artisan make:model Product -mcrst && 
+php artisan migrate && 
+php artisan serve
